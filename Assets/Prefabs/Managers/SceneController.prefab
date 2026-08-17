@@ -355,6 +355,7 @@ MonoBehaviour:
   fadeCamera: {fileID: 1247187093390009641}
   defaultScenesToLoad:
   - SCN_PlayerTest
+  - SCN_World
   currentScenes: []
   fadeImage: {fileID: 6316565769671137166}
   fadeSpeed: 0.5
