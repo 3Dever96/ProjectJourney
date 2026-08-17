@@ -1,6 +1,8 @@
-# Title
+# Project Journey
 
 ## Description
+
+Project Journey is a roguelike RPG that combines the branching paths of Slay the Spire or Hades with an action combat system.  The player will enter an area, defeat all the enemies, claim their prizes, and choose the path to the next area.  The game is 3rd person, making it possible to see the final area from afar and see how much further the journey is.
 
 ## Getting Started
 
@@ -9,21 +11,21 @@ These instructions will get you a copy of the project up and running on your loc
 ### Requirements
 
 **Unity Hub**
-**Unity Editor Version:** '6000.3.6f1' (or minimum recommended patch version)
+**Unity Editor Version:** '6000.4.0f1' (or minimum recommended patch version)
 **Target Platform:** 'Windows' (Requires the Windows Build Support module installed via Unity Hub)
 
 ### Installation
 
 1. **Clone the repository:** 
 '''bash
-git clone https://github.com/3Dever96/[ProjectName].git
+git clone https://github.com/3Dever96/ProjectJourney.git
 '''
 
 2. **Open in Unity**
 * Open **Unity Hub**.
 * Click **"Add Project from Disk"**.
 * Navigate to the cloned directory and select the root folder.
-* Ensure the correct Unity Editor Version ('6000.3.6f1') is selected in the Hub and open the project.
+* Ensure the correct Unity Editor Version ('6000.4.0f1') is selected in the Hub and open the project.
 
 3. **Run the Project:**
 * Once the Editor loads, navigate to the primary scene file (usually in 'Assets/Scenes/').
