@@ -14,9 +14,9 @@ TagManager:
   - UI
   - Solid
   - Player
-  - 
-  - 
-  - 
+  - InteractCollider
+  - InteractButton
+  - InteractDetector
   - 
   - 
   - 
