@@ -303,3 +303,6 @@ MonoBehaviour:
   turnSpeed: 500
   <GroundState>k__BackingField:
     maxSpeed: 5
+    jumpSpeed: 7
+  <AirState>k__BackingField:
+    fallSpeed: -25

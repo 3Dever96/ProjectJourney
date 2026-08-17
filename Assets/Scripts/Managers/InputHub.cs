@@ -77,19 +77,19 @@ public class InputHub : MonoBehaviour
                 break;
             case "Jump":
                 // Reads true during the performed/started phases, and false when the key is released.
-                Jump = context.ReadValue<bool>();
+                Jump = context.ReadValue<float>() > 0.5f;
                 break;
             case "Attack":
-                Attack = context.ReadValue<bool>();
+                Attack = context.ReadValue<float>() > 0.5f;
                 break;
             case "Defend":
-                Defend = context.ReadValue<bool>();
+                Defend = context.ReadValue<float>() > 0.5f;
                 break;
             case "Interact":
-                Interact = context.ReadValue<bool>();
+                Interact = context.ReadValue<float>() > 0.5f;
                 break;
             case "Pause":
-                Pause = context.ReadValue<bool>();
+                Pause = context.ReadValue<float>() > 0.5f;
                 break;
         }
     }
